@@ -2,7 +2,7 @@ import {renderComponent, expect} from '../test_helper';
 import CommentBox from '../../src/components/comment_box';
 
 
-describe('Comment Box', () => {
+describe('Comment Box Test', () => {
 
     it('has the correct class', () => {
         const component = renderComponent(CommentBox);
